@@ -24,7 +24,10 @@ cd Carrefour/script
 ```
 runIt.bat ../data/input/ ../data/output/
 ```
-######  NB :  les paramètres ci-dessus sont des chemins relatifs, vous pouvez spécifier d’autres chemins absolus
+## Remarques:  
+   **1. Les paramètres ci-dessus sont des chemins relatifs, vous pouvez spécifier d’autres chemins absolus**
+ 
+   **2. Si le répertoire ./data/output n'existe pas, il foudrait le créer avant d'excuter le job.**
 
 Si vous souhaitez réexécuter ce programme une seconde fois en spécifiant les mêmes répertoires d’entrée (les mêmes données de transactions déjà traitées) et de sortie il va falloir supprimer les fichiers : transactions_AAAAMMJJ.data. processed générés lors de la première exécution.
 
